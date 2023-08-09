@@ -4,11 +4,13 @@
     padding: 0;
     margin: 0;
 }
+
 /* Base styling for the body of the webpage */
 body {
     background-color: #d9dcd6;
     font-size: 16px;
 }
+
 /* Header added flex */
 .header {
     padding: 20px;
@@ -19,15 +21,18 @@ body {
     justify-content: space-between;
 
 }
+
 /* Styling for the main title inside the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* Different color for the "seo" text inside the main title */
 .header h1 .seo {
     color: #d9dcd6;
 }
+
 /* Styling for the navigation links inside the header */
 .header nav {
     padding-top: 15px;
@@ -45,6 +50,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* Styling for all anchor links */
 a {
     color: #ffffff;
@@ -61,6 +67,7 @@ a {
     background-size: cover;
     background-position: center;
 }
+
 /* Utility classes for floating elements */
 .float-left {
     float: left;
@@ -71,12 +78,14 @@ a {
     float: right;
     margin-left: 25px;
 }
+
 /* Styling for the main content area */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 /* Benefits section */
 .benefits {
     margin-right: 20px;
@@ -103,6 +112,7 @@ a {
     margin-bottom: 10px;
     text-align: center;
 }
+
 /* Image styling for benefit items */
 .benefit-brand img,
 .benefit-cost img,
@@ -111,6 +121,7 @@ a {
     margin: 10px auto;
     max-width: 150px;
 }
+
 /* Common styles for each service item */
 .online-reputation-management,
 .social-media-marketing,
@@ -122,12 +133,14 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
+
 /* Service images */
 .online-reputation-management img,
 .social-media-marketing img,
 .search-engine-optimization img {
     max-height: 200px;
 }
+
 /* Service titles */
 .online-reputation-management h2,
 .social-media-marketing h2,
