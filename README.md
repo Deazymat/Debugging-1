@@ -51,6 +51,7 @@ To run this project you will need the following:
 
 Screenshot of website that is currently sill intact after reformat.
 
+![Alt text](Develop/assets/images/screenshot/screencapture-127-0-0-1-5500-Debugging-1-Develop-index-html-2023-08-09-17_00_23.png)
 ---
 
 ## Installation 🔧
