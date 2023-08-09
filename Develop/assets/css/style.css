@@ -1,9 +1,10 @@
+/* Global Styles */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Base styling for the body of the webpage */
 body {
     background-color: #d9dcd6;
     font-size: 16px;
@@ -15,16 +16,16 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Styling for the main title inside the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Different color for the "seo" text inside the main title */
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Styling for the navigation links inside the header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,7 +42,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Styling for all anchor links */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -57,7 +58,7 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* Utility classes for floating elements */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,13 +68,13 @@ a {
     float: right;
     margin-left: 25px;
 }
-
+/* Styling for the main content area */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,7 +86,7 @@ a {
     background-color: #2589bd;
 }
 
-
+/* Individual benefit items styling */
 .benefit-brand,
 .benefit-cost,
 .benefit-lead {
@@ -99,7 +100,7 @@ a {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Image styling for benefit items */
 .benefit-brand img,
 .benefit-cost img,
 .benefit-lead img {
@@ -107,7 +108,7 @@ a {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Common styles for each service item */
 .online-reputation-management,
 .social-media-marketing,
 .search-engine-optimization {
@@ -118,13 +119,13 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Service images */
 .online-reputation-management img,
 .social-media-marketing img,
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* Service titles */
 .online-reputation-management h2,
 .social-media-marketing h2,
 .search-engine-optimization h2 {
